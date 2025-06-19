@@ -1,0 +1,44 @@
+/* "I don't know who you are. I don't know what you want  */
+p {
+  color: coral;
+  font-size: 16px;
+  text-align: center;
+  border: 10px solid navajowhite;
+  border-radius: 10%;
+  width: 50%;
+  padding: 0%;
+  margin: 0%;
+}
+/* If you are looking for ransom, I can tell you I don't have money,  */
+a {
+  color: rgb(200, 109, 203);
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.song-lyrics {
+  float: left;
+  width: 70%;
+}
+
+.images {
+  float: left;
+  width: 30%;
+}
+
+.song-info {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.song-info {
+  padding: 10px;
+}
